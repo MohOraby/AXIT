@@ -1,0 +1,89 @@
+/* Small Screens */
+
+@media (max-width: 1024px) {
+  header {
+    height: 1000px;
+  }
+}
+
+/* Small Screens */
+
+@media (max-width: 767px) {
+  /* Header */
+
+  header h1,
+  header p {
+    text-align: center;
+  }
+
+  header .main-p:after {
+    margin: 30px auto;
+  }
+
+  header .download-btn {
+    margin: 20px auto;
+    display: block;
+  }
+
+  header {
+    height: 1000px;
+  }
+
+  /* Social Section */
+
+  .social-section {
+    text-align: center;
+  }
+
+  .social-section i {
+    font-size: 25px;
+  }
+
+  /* Tabs Section */
+
+  .tabs-section {
+    text-align: center;
+  }
+
+  .tabs-section img {
+    margin-top: 30px;
+  }
+
+  /* Sublist Section */
+
+  .sublist-section {
+    text-align: center;
+  }
+
+  .sublist-section h3:after {
+    margin: 30px auto;
+  }
+
+  .sublist-section img {
+    margin: 20px auto;
+  }
+
+  /* Standard Picture Section */
+
+  .std-picture-section {
+    text-align: center;
+  }
+
+  .std-picture-section .text-content {
+    padding-right: 0;
+  }
+
+  .std-picture-section h3:after {
+    margin: 30px auto;
+  }
+
+  .std-picture-section img {
+    margin: 20px auto;
+  }
+
+  /* Awesome Section */
+
+  .awesome-section i {
+    margin-top: 40px;
+  }
+}
