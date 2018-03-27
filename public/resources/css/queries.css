@@ -91,9 +91,6 @@
 /* X-Small Screens */
 
 @media (max-width: 395px) {
-  body {
-    overflow-x: hidden;
-  }
 
   .social-section .col-md-8 {
     margin-right: 70px;
