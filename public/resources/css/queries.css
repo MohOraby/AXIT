@@ -87,3 +87,37 @@
     margin-top: 40px;
   }
 }
+
+/* X-Small Screens */
+
+@media (max-width: 395px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .social-section .col-md-8 {
+    margin-right: 70px;
+  }
+
+  .social-section i {
+    color: #ccc;
+    margin: 20px 4px;
+    transition: all 0.3s;
+  }
+
+  .tabs-section .tabs-content p {
+    font-size: 12px;
+  }
+
+  .sublist-section .list-icon {
+    text-align: left;
+  }
+
+  .awesome-section .row {
+    margin-top: 10px;
+  }
+
+  .testimonials-section img {
+    margin-bottom: 30px;
+  }
+}
